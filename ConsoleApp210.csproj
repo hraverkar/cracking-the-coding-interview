@@ -8,6 +8,7 @@
   <ItemGroup>
     <Compile Remove="isUnique.cs" />
     <Compile Remove="oneAway.cs" />
+    <Compile Remove="Overloading.cs" />
     <Compile Remove="PalindromeString.cs" />
     <Compile Remove="StringCompression.cs" />
     <Compile Remove="StringPermutation.cs" />
