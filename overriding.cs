@@ -4,17 +4,16 @@ using System.Text;
 
 namespace ConsoleApp210
 {
-  class base_Class
+  internal class Base_Class
   {
     public virtual void Show()
     {
       Console.WriteLine("Hello harshal");
     }
   }
-
-  class UpperClass :  base_Class
+  internal class UpperClass : Base_Class
   {
-      public  override void Show()
+    public override void Show()
     {
       Console.WriteLine("Hello harshal Test");
     }
@@ -23,7 +22,7 @@ namespace ConsoleApp210
   {
     public static void Main()
     {
-      base_Class bc = new base_Class();
+      Base_Class bc = new Base_Class();
       bc.Show();
 
       bc = new UpperClass();
