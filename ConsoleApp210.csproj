@@ -11,6 +11,7 @@
     <Compile Remove="PalindromeString.cs" />
     <Compile Remove="StringCompression.cs" />
     <Compile Remove="StringPermutation.cs" />
+    <Compile Remove="stringRotation.cs" />
     <Compile Remove="stringurlify.cs" />
   </ItemGroup>
 
