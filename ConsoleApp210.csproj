@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Remove="isUnique.cs" />
+    <Compile Remove="oneAway.cs" />
     <Compile Remove="PalindromeString.cs" />
     <Compile Remove="StringPermutation.cs" />
     <Compile Remove="stringurlify.cs" />
